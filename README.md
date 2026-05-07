@@ -4,6 +4,8 @@ SQL project about Screen Time, Sleep & Stress Analysis Dataset. Data analysis on
 
 **Dataset:** [Screen Time, Sleep & Stress Analysis Dataset](https://www.kaggle.com/datasets/amar5693/screen-time-sleep-and-stress-analysis-dataset) — ML-ready dataset analyzing smartphone usage and productivity.
 
+**Sample:** This projects contains phoneuse_sample.csv file with randomly selected 5000 records from orginal database. 
+
 ---
 
 ## Dataset Overview
@@ -36,19 +38,22 @@ SQL project about Screen Time, Sleep & Stress Analysis Dataset. Data analysis on
 
 ---
 
-## Project Structure
+## Queries
 
-```
-phoneuse/
-├── README.md
-└── queries/
-    ├── 01_schema.sql             -- Schema inspection & full table scan
-    ├── 02_correlation_matrix.sql -- Full Pearson correlation matrix
-    ├── 03_distributions.sql      -- Descriptive stats & distributions
-    ├── 04_segmentation.sql       -- Cohort analysis & behavioral segments
-    ├── 05_demographics.sql       -- Age, gender & occupation breakdowns
-    └── 06_data_quality.sql       -- NULL checks & sanity validation
-```
+Full SQL available in [`queries.sql`](queries.sql).
+
+| # | Query | Description |
+|---|-------|-------------|
+| 1 | Basic distributions | Average phone usage, sleep and productivity across the full dataset |
+| 2 | Correlation matrix | Pearson correlation between all numeric variables |
+| 3 | Phone usage buckets | Users grouped into 2h ranges, compared by sleep, stress and productivity |
+| 4 | Phone hours percentiles | Q1, median and Q3 of daily phone usage |
+| 5 | Age groups vs productivity | Median and average productivity score per age cohort |
+| 6 | Top occupations by phone usage | Average daily phone hours per occupation group |
+| 7 | Device type vs social media use | Proportion of heavy social media users by iOS vs Android |
+| 8 | At-risk cohort | Users with low sleep (<5.5h) and high stress (≥8) inspected for phone usage patterns |
+| 9 | Heavy vs light users | Cohort split at 6h/day, compared by sleep, productivity and stress |
+| 10 | Gender breakdown | Phone usage and wellbeing metrics by gender |
 
 ## Results
 ### Basic distributions 
