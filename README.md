@@ -4,7 +4,7 @@ SQL data analysis project exploring relationships between smartphone usage, slee
 
 **Dataset:** [Screen Time, Sleep & Stress Analysis Dataset](https://www.kaggle.com/datasets/amar5693/screen-time-sleep-and-stress-analysis-dataset) 
 
-**Sample:** This projects contains phoneuse_sample.csv file with randomly selected 5000 records from orginal database. 
+**Sample:** This project contains phoneuse_sample.csv file with randomly selected 5000 records from from the original dataset.
 
 ---
 
