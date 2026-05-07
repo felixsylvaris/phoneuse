@@ -18,6 +18,13 @@ SQL project about Screen Time, Sleep & Stress Analysis Dataset. Data analysis on
 
 **Version Note:** Requires PostgreSQL 9.4+ for percentile_cont(). Tested on PostgreSQL 16.
 
+### Limitations
+
+- Dataset is synthetically generated
+- Variables appear statistically independent
+- Findings should not be interpreted as real behavioral conclusions
+- Project focuses on SQL analysis methodology rather than domain validity
+
 ### Schema
 
 | Column | Type | Description |
