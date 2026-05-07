@@ -52,6 +52,17 @@ SQL data analysis project exploring relationships between smartphone usage, slee
 - Are there demographic differences (age, gender, occupation) in phone usage patterns?
 
 ---
+
+## Skills Demonstrated
+
+- PostgreSQL aggregations
+- CTEs
+- Correlation analysis
+- Percentile calculations
+- Cohort analysis
+- CASE expressions
+- Data quality checks
+---
  
 ## Queries
 
