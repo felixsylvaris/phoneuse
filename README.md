@@ -38,9 +38,17 @@ SQL project about Screen Time, Sleep & Stress Analysis Dataset. Data analysis on
 
 ---
 
+## Research Questions
+
+- Does daily phone usage predict sleep quality, stress, or productivity?
+- Do heavy phone users show worse wellbeing outcomes than light users?
+- Are there demographic differences (age, gender, occupation) in phone usage patterns?
+
+---
+ 
 ## Queries
 
-Full SQL available in [phoneuse_queries.sql`](phoneuse_queries.sql).
+Full SQL available in e[phoneuse_queries.sql](phoneuse_queries.sql).
 
 | # | Query | Description |
 |---|-------|-------------|
@@ -85,6 +93,8 @@ Users were split into heavy (≥6h/day, n=27,606) and light (<6h/day, n=22,394) 
 
 ### Gender breakdown 
 The dataset is evenly split across three gender categories (Female 16,679, Male 16,708, Other 16,613). All groups returned virtually identical averages across every metric — phone usage, sleep, stress, and productivity all within 0.03 of each other. The perfect balance between groups is itself a marker of synthetic generation. While students are often inclusive, and questioning gender roles and identity, the presence of 1/3 of "other" gender is suspicious high, even for young generation. 
+
+---
 
 ## Summary
 Across every query — correlation matrix, usage buckets, cohort splits, demographic breakdowns — the results tell a single consistent story: nothing correlates with anything.
