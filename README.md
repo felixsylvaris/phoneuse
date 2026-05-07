@@ -40,7 +40,7 @@ SQL project about Screen Time, Sleep & Stress Analysis Dataset. Data analysis on
 
 ## Queries
 
-Full SQL available in [`queries.sql`](queries.sql).
+Full SQL available in [phoneuse_queries.sql`](phoneuse_queries.sql).
 
 | # | Query | Description |
 |---|-------|-------------|
