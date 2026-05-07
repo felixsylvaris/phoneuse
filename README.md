@@ -14,6 +14,8 @@ SQL project about Screen Time, Sleep & Stress Analysis Dataset. Data analysis on
 | Rows | 50,000 |
 | Database | PostgreSQL |
 
+**Version Note:** Requires PostgreSQL 9.4+ for percentile_cont(). Tested on PostgreSQL 16.
+
 ### Schema
 
 | Column | Type | Description |
