@@ -1,8 +1,8 @@
 # phoneuse
 
-SQL project about Screen Time, Sleep & Stress Analysis Dataset. Data analysis on smartphone usage patterns and their relationship to productivity, stress, and sleep quality among students.
+SQL data analysis project exploring relationships between smartphone usage, sleep, stress, and productivity using a synthetic PostgreSQL dataset.
 
-**Dataset:** [Screen Time, Sleep & Stress Analysis Dataset](https://www.kaggle.com/datasets/amar5693/screen-time-sleep-and-stress-analysis-dataset) — ML-ready dataset analyzing smartphone usage and productivity.
+**Dataset:** [Screen Time, Sleep & Stress Analysis Dataset](https://www.kaggle.com/datasets/amar5693/screen-time-sleep-and-stress-analysis-dataset) 
 
 **Sample:** This projects contains phoneuse_sample.csv file with randomly selected 5000 records from orginal database. 
 
@@ -101,7 +101,7 @@ Users with sleep under 5.5 hours and stress level of 8 or above were isolated fo
 Users were split into heavy (≥6h/day, n=27,606) and light (<6h/day, n=22,394) phone users. All three outcome metrics were identical across cohorts: sleep 6.50 vs 6.50, productivity 5.50 vs 5.51, stress 5.50 vs 5.50. No difference whatsoever between the two groups.
 
 ### Gender breakdown 
-The dataset is evenly split across three gender categories (Female 16,679, Male 16,708, Other 16,613). All groups returned virtually identical averages across every metric — phone usage, sleep, stress, and productivity all within 0.03 of each other. The perfect balance between groups is itself a marker of synthetic generation. While perfect split of women and men are possible, the three way split with "other"is rare in real world datasets. 
+The dataset is evenly split across three gender categories (Female 16,679, Male 16,708, Other 16,613). All groups returned virtually identical averages across every metric — phone usage, sleep, stress, and productivity all within 0.03 of each other. The perfect balance between groups is itself a marker of synthetic generation. While near-equal male/female splits are plausible in real datasets, the almost perfectly balanced three-way distribution including "Other" strongly suggests synthetic generation.
 
 ---
 
