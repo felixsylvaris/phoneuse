@@ -48,7 +48,7 @@ SQL project about Screen Time, Sleep & Stress Analysis Dataset. Data analysis on
  
 ## Queries
 
-Full SQL available in e[phoneuse_queries.sql](phoneuse_queries.sql).
+Full SQL available in [`phoneuse_queries.sql`](phoneuse_queries.sql) .
 
 | # | Query | Description |
 |---|-------|-------------|
@@ -62,6 +62,8 @@ Full SQL available in e[phoneuse_queries.sql](phoneuse_queries.sql).
 | 8 | At-risk cohort | Users with low sleep (<5.5h) and high stress (≥8) inspected for phone usage patterns |
 | 9 | Heavy vs light users | Cohort split at 6h/day, compared by sleep, productivity and stress |
 | 10 | Gender breakdown | Phone usage and wellbeing metrics by gender |
+
+---
 
 ## Results
 ### Basic distributions 
