@@ -94,7 +94,7 @@ Users with sleep under 5.5 hours and stress level of 8 or above were isolated fo
 Users were split into heavy (≥6h/day, n=27,606) and light (<6h/day, n=22,394) phone users. All three outcome metrics were identical across cohorts: sleep 6.50 vs 6.50, productivity 5.50 vs 5.51, stress 5.50 vs 5.50. No difference whatsoever between the two groups.
 
 ### Gender breakdown 
-The dataset is evenly split across three gender categories (Female 16,679, Male 16,708, Other 16,613). All groups returned virtually identical averages across every metric — phone usage, sleep, stress, and productivity all within 0.03 of each other. The perfect balance between groups is itself a marker of synthetic generation. While students are often inclusive, and questioning gender roles and identity, the presence of 1/3 of "other" gender is suspicious high, even for young generation. 
+The dataset is evenly split across three gender categories (Female 16,679, Male 16,708, Other 16,613). All groups returned virtually identical averages across every metric — phone usage, sleep, stress, and productivity all within 0.03 of each other. The perfect balance between groups is itself a marker of synthetic generation. While perfect split of women and men are possible, the three way split with "other"is rare in real world datasets. 
 
 ---
 
