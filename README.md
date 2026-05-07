@@ -62,6 +62,8 @@ SQL data analysis project exploring relationships between smartphone usage, slee
 - Cohort analysis
 - CASE expressions
 - Data quality checks
+- Exploratory data analysis (EDA)
+- Data aggregation and segmentation
 ---
  
 ## Queries
