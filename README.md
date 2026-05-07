@@ -21,7 +21,7 @@ SQL data analysis project exploring relationships between smartphone usage, slee
 ### Limitations
 
 - Dataset is synthetically generated
-- Variables appear statistically independent
+- No meaningful relationships were detected between variables
 - Findings should not be interpreted as real behavioral conclusions
 - Project focuses on SQL analysis methodology rather than domain validity
 
@@ -36,7 +36,7 @@ SQL data analysis project exploring relationships between smartphone usage, slee
 | `device_type` | varchar | Smartphone platform |
 | `daily_phone_hours` | real | Average daily phone usage (hours) |
 | `social_media_hours` | real | Daily time spent on social media (hours) |
-| `work_productivity_score` | integer | Self-reported productivity score (0–100) |
+| `work_productivity_score` | integer | Self-reported productivity score (0–10) |
 | `sleep_hours` | real | Average nightly sleep (hours) |
 | `stress_level` | integer | Stress score (1–10) |
 | `app_usage_count` | integer | Number of distinct apps used daily |
