@@ -53,7 +53,7 @@ SQL data analysis project exploring relationships between smartphone usage, slee
 
 ---
 
-## Skills Demonstrated
+## Skills Used
 
 - PostgreSQL aggregations
 - CTEs
