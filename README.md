@@ -49,5 +49,39 @@ phoneuse/
 ```
 
 ## Results
+### Basic distributions 
+The dataset contains 50,000 records. Average daily phone usage is 6.51 hours, average sleep 6.50 hours, and average productivity score 5.50. All values sit near the midpoint of their respective ranges, which is expected for synthetically generated data.
+
 ### Correlation matrix
-The correlation matrix confirms complete independence between all variables. No pair of numeric columns shows a meaningful linear relationship (all |r| < 0.01), which is consistent with the synthetic nature of the dataset.
+No meaningful linear relationships were found between any pair of numeric variables (all |r| < 0.01). The matrix confirms complete independence across all columns, consistent with the synthetic nature of the dataset.
+
+### Phone usage buckets 
+Users were split into five groups by daily phone hours. Productivity, sleep, and stress levels remained virtually identical across all buckets (productivity 5.49–5.51, sleep 6.49–6.51, stress 5.43–5.58). Heavy phone users (8h+) showed no worse outcomes than light users, and notably made up the largest group (18,462 users). No dose-response relationship was observed.
+
+### Phone hours percentiles 
+The distribution of daily phone usage is symmetric: 25th percentile at 3.8h, median at 6.5h, and 75th percentile at 9.2h. The equal spread above and below the median suggests a uniform rather than normal distribution, consistent with random data generation.
+
+### Age groups vs productivity 
+Median and average productivity scores were compared across five age groups. All groups returned near-identical averages (5.47–5.53) and a median of either 5 or 6 depending on the group's exact distribution. No age-related productivity trend was observed.
+
+### Top occupations by phone usage 
+Four occupation groups were identified (Business Owner, Freelancer, Student, Professional), each with roughly 12,000–12,600 users. Average daily phone hours ranged from 6.49 to 6.54 — a difference of 0.05 hours across all groups, which is not meaningful. No occupation showed distinctly higher or lower phone usage.
+
+### Device type vs heavy social media use 
+Users were split almost exactly between iOS (24,920) and Android (25,080). Around 66% of users on both platforms exceeded 3 hours of daily social media use, with no meaningful difference between device types (66.10% vs 66.61%). Device choice appears unrelated to social media consumption patterns.
+
+### At-risk cohort (low sleep + high stress) 
+Users with sleep under 5.5 hours and stress level of 8 or above were isolated for inspection. Even within this worst-case group, daily phone hours ranged widely from 1.1 to 11.9 hours, with no clustering around high usage. Compared to the dataset average of 6.51 hours, the at-risk cohort shows no elevated phone consumption — further confirming that phone usage is not predictive of stress or sleep outcomes in this dataset.
+
+### Heavy vs light phone users (cohort analysis) 
+Users were split into heavy (≥6h/day, n=27,606) and light (<6h/day, n=22,394) phone users. All three outcome metrics were identical across cohorts: sleep 6.50 vs 6.50, productivity 5.50 vs 5.51, stress 5.50 vs 5.50. No difference whatsoever between the two groups.
+
+### Gender breakdown 
+The dataset is evenly split across three gender categories (Female 16,679, Male 16,708, Other 16,613). All groups returned virtually identical averages across every metric — phone usage, sleep, stress, and productivity all within 0.03 of each other. The perfect balance between groups is itself a marker of synthetic generation. While students are often inclusive, and questioning gender roles and identity, the presence of 1/3 of "other" gender is suspicious high, even for young generation. 
+
+## Summary
+Across every query — correlation matrix, usage buckets, cohort splits, demographic breakdowns — the results tell a single consistent story: nothing correlates with anything.
+Phone usage does not predict sleep quality, stress, or productivity. Age, gender, and occupation make no difference. Heavy users look identical to light users. The at-risk cohort (low sleep, high stress) uses their phones no more than everyone else. Every average converges near 5.50 and every percentage near 40%.
+This is not a failure of analysis — it is the expected outcome of a uniformly generated synthetic dataset. The value of the project lies in the queries themselves: the methodology is sound, the questions were the right ones to ask, and the same SQL would produce meaningful results on real-world data where correlations actually exist.
+
+
